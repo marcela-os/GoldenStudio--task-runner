@@ -203,4 +203,31 @@ nav {
   -ms-flex: 0 0 30%;
       flex: 0 0 30%;
 }
+
+/* Footer */
+.page-footer {
+  padding: 0;
+}
+
+.page-footer .row {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.page-footer li {
+  font-size: 0;
+  display: inline;
+}
+
+.page-footer i {
+  font-size: 20px;
+  background: #2d3436;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

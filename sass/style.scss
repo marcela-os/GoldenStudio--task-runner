@@ -185,3 +185,27 @@ nav {
   background: $color-white;
   flex: 0 0 30%;
 }
+
+/* Footer */
+
+.page-footer {
+    padding: 0;
+}
+.page-footer .row {
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+.page-footer li {
+    font-size: 0;
+    display: inline;
+}
+.page-footer i {
+  font-size: 20px;
+	background: $color-dark;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: $color-white;
+	border-radius: 50%;
+	text-align: center;
+}
