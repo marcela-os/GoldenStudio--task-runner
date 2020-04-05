@@ -2,6 +2,7 @@
 
  $color-white: #fff;
  $color-dark: #2d3436;
+ $color-icons: #F4D03F;
  $font-header: 'Signika', sans-serif;
  $font-text: 'Inconsolata', monospace;
  $transition: all 1s;
@@ -16,6 +17,11 @@ body {
     font-size: 16px;
     line-height: 1.7;
     font-family: $font-text;
+}
+section {
+    padding: 96px 0;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .btn {
     display: inline-block;
@@ -121,4 +127,27 @@ nav {
 }
 .btn-one:hover {
     color: $color-dark;
+}
+
+/* Services */
+
+.row {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box {
+    position: relative;
+    flex: 0 0 33.333%;
+}
+.services i {
+	font-size: 30px;
+	background: $color-white;
+  border: 2px solid $color-icons;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	color: $color-icons;
+	border-radius: 50%;
 }

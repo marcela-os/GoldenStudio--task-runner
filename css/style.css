@@ -10,6 +10,12 @@ body {
   font-family: "Inconsolata", monospace;
 }
 
+section {
+  padding: 96px 0;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .btn {
   display: inline-block;
   min-width: 160;
@@ -129,5 +135,33 @@ nav {
 
 .btn-one:hover {
   color: #2d3436;
+}
+
+/* Services */
+.row {
+  padding: 70px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.box {
+  position: relative;
+  -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
+}
+
+.services i {
+  font-size: 30px;
+  background: #fff;
+  border: 2px solid #F4D03F;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #F4D03F;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
