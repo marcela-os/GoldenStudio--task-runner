@@ -4,7 +4,7 @@
  $color-dark: #2d3436;
  $color-icons: #F4D03F;
  $font-header: 'Signika', sans-serif;
- $font-text: 'Inconsolata', monospace;
+ $font-text: 'Lato', sans-serif;
  $transition: all 1s;
 
 /* Global */
@@ -39,6 +39,18 @@ section {
     background-position: 100% 0;
     background-size: 300%;
     transition: $transition;
+}
+.section-title {
+  color: $color-dark;
+  font-size: 24px;
+  font-family: $font-header;
+  margin: 48px 0 0 0;
+}
+.section-subtitle {
+  color: $color-dark;
+	font-size: 20px;
+	margin: 48px 0 0 0;
+  font-family: $font-header;
 }
 /* Navigation */
 
