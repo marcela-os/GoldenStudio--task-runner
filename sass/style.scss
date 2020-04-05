@@ -144,7 +144,7 @@ nav {
 /* Services */
 
 .row {
-    padding: 70px 0;
+    padding: 40px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -162,4 +162,26 @@ nav {
 	line-height: 60px;
 	color: $color-icons;
 	border-radius: 50%;
+}
+
+/* Portfolio */
+
+.portfolio {
+  background: #F2F3F4;
+}
+.portfolio .container {
+  padding: 96px 0;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.box img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.portfolio .box {
+  padding: 0;
+  background: $color-white;
+  flex: 0 0 30%;
 }
