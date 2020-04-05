@@ -6,6 +6,25 @@
  $font-text: 'Inconsolata', monospace;
  $transition: all 1s;
 
+/* Global */
+
+.btn {
+    display: inline-block;
+    min-width: 160;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-text;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: $transition;
+}
 /* Navigation */
 
 nav {
