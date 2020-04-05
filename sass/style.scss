@@ -70,3 +70,41 @@ nav {
     display: block;
     padding: 0 24px;
 }
+/* Splash */
+
+.splash {
+    height: 100vh;
+    background-image:url('https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height:500px;
+    display: flex;
+}
+.splash-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.page-title {
+	color: $color-dark;
+	font-size: 24px;
+	font-family: $font-header;
+	margin: 48px 0 0 0;
+}
+.page-subtitle {
+	color: $color-dark;
+	font-size: 60px;
+	margin: 48px 0 0 0;
+  font-family: $font-header;
+}
+.btn-one {
+    border-color:$color-dark;
+    color:$color-white;
+    background: $color-dark;
+    font-family: $font-header;
+}
+.btn-one:hover {
+    color: $color-dark;
+}

@@ -72,4 +72,48 @@ nav {
   display: block;
   padding: 0 24px;
 }
+
+/* Splash */
+.splash {
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  min-height: 500px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.splash-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-title {
+  color: #2d3436;
+  font-size: 24px;
+  font-family: "Signika", sans-serif;
+  margin: 48px 0 0 0;
+}
+
+.page-subtitle {
+  color: #2d3436;
+  font-size: 60px;
+  margin: 48px 0 0 0;
+  font-family: "Signika", sans-serif;
+}
+
+.btn-one {
+  border-color: #2d3436;
+  color: #fff;
+  background: #2d3436;
+  font-family: "Signika", sans-serif;
+}
+
+.btn-one:hover {
+  color: #2d3436;
+}
 /*# sourceMappingURL=style.css.map */
