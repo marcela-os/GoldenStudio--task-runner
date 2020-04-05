@@ -1,5 +1,15 @@
 /* Variables */
 /* Global */
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Inconsolata", monospace;
+}
+
 .btn {
   display: inline-block;
   min-width: 160;
@@ -74,22 +84,26 @@ nav {
 }
 
 /* Splash */
-.splash {
-  height: 100vh;
-  background-image: url("https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  min-height: 500px;
-  display: -ms-flexbox;
-  display: flex;
-}
-
+/*.splash {
+    height: 100vh;
+    position: relative;
+    background-image:url('https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
 .splash-inner {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.splash-first img {
+  height: 100vh;
+  object-fit: cover;
+  width: 100%;
+  object-position: top;
 }
 
 .page-title {

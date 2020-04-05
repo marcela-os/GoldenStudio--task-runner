@@ -8,6 +8,15 @@
 
 /* Global */
 
+body {
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+}
 .btn {
     display: inline-block;
     min-width: 160;
@@ -72,20 +81,25 @@ nav {
 }
 /* Splash */
 
-.splash {
+/*.splash {
     height: 100vh;
+    position: relative;
     background-image:url('https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg');
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
-    min-height:500px;
-    display: flex;
-}
+}*/
 .splash-inner {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+.splash-first img {
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+    object-position: top;
 }
 .page-title {
 	color: $color-dark;
